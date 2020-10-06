@@ -1,0 +1,340 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+
+/* nav {
+    background-color: blue;
+} */
+
+nav ul li a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+nav ul li a:hover {
+    color: #00416d;
+}
+
+nav .logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar {
+    background: #2571AB !important;
+    transition: all 0.2s;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 102, 203);
+}
+
+
+/***********************************************************************/
+
+
+/*****************************Seccion Header***************************/
+
+
+/***********************************************************************/
+
+.seccion-header {
+    width: 100%;
+    padding: 200px 0;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, hsla(197, 38%, 28%, 0.285), #203a4379, hsla(198, 43%, 11%, 0.36));
+    background: linear-gradient(to right, hsla(197, 38%, 28%, 0.578), hsla(194, 35%, 19%, 0.387), hsla(198, 43%, 11%, 0.353)), url(../images/banner.jpg);
+    /* min-height: 30vh; */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    /* font-weight: bold; */
+    background-attachment: fixed;
+}
+
+.seccion-header h2 {
+    font-size: 41px;
+    font-weight: bold;
+}
+
+.contenido {
+    /* background-color: hsla(203, 88%, 60%, 0.544); */
+    width: 100%;
+    border-radius: 100%;
+    border: outset 40px hsla(0, 0%, 100%, 0.857);
+    padding: 75px 30px;
+    box-shadow: rgb(0, 0, 0);
+}
+
+.redes p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes p a i {
+    font-size: 30px;
+    padding: 12px 8px;
+}
+
+.redes p a .fb:hover {
+    color: #0779E9;
+}
+
+.redes p a .wt:hover {
+    color: #82C91E;
+}
+
+.redes p a .im:hover {
+    color: #F28690;
+}
+
+.redes p a .link:hover {
+    color: #0077B5;
+}
+
+
+/***********************************************************************/
+
+
+/*****************************Seccion sobre mi***************************/
+
+
+/***********************************************************************/
+
+
+/* .seccion-sobre-mi {
+    margin-top: 120px;
+} */
+
+.seccion-sobre-mi {
+    width: 100%;
+    padding: 200px 0;
+    /* min-height: 30vh; */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Dosis', sans-serif;
+    /* font-weight: bold; */
+}
+
+.seccion-sobre-mi p {
+    font-size: 22px;
+    text-align: justify;
+}
+
+.titulo {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+section .row {
+    margin-top: 80px;
+}
+
+
+/***********************************************************************/
+
+
+/*****************************Habilidades*******************************/
+
+
+/***********************************************************************/
+
+.seccion-habilidades {
+    padding: 80px 0;
+    background-color: #F6F6F6;
+}
+
+.seccion-habilidades .card {
+    margin: 15px 0;
+    box-shadow: #000;
+}
+
+.seccion-habilidades .card-html {
+    background-color: #E96228;
+    color: #fff;
+}
+
+.seccion-habilidades .card-html:hover {
+    background-color: #fff;
+    color: #E96228;
+    border: 1px solid #E96228;
+}
+
+.seccion-habilidades .card-css {
+    background-color: #3194F7;
+    color: #fff;
+}
+
+.seccion-habilidades .card-css:hover {
+    background-color: #fff;
+    color: #3194F7;
+    border: 1px solid #3194F7;
+}
+
+.seccion-habilidades .card-js {
+    background-color: #fddb3a;
+    color: #fff;
+}
+
+.seccion-habilidades .card-js:hover {
+    background-color: #fff;
+    color: #fddb3a;
+    border: 1px solid #fddb3a;
+}
+
+.seccion-habilidades .card-bt {
+    background-color: #6c37b7;
+    color: #fff;
+}
+
+.seccion-habilidades .card-bt:hover {
+    background-color: #fff;
+    color: #6c37b7;
+    border: 1px solid #6c37b7;
+}
+
+.seccion-habilidades .card-angular {
+    background-color: #C3002F;
+    color: #fff;
+}
+
+.seccion-habilidades .card-angular:hover {
+    border: 1px solid #C3002F;
+    color: #C3002F;
+    background-color: #fff;
+}
+
+.seccion-habilidades .card-wordpress {
+    background-color: #007095;
+    color: #fff;
+}
+
+.seccion-habilidades .card-wordpress:hover {
+    background-color: #fff;
+    color: #007095;
+    border: 1px solid #007095;
+}
+
+.seccion-habilidades .card h3 i {
+    font-size: 30px;
+}
+
+.seccion-habilidades .card p {
+    font-weight: bold;
+}
+
+
+/***********************************************************************/
+
+
+/*****************************Portafolios*******************************/
+
+
+/***********************************************************************/
+
+.seccion-portafolio {
+    margin: 120px 0;
+}
+
+.seccion-portafolio a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.seccion-portafolio .imagen {
+    margin: 14px 0;
+}
+
+.imagen-port {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(202, 98%, 44%, 0.591);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hover-galeria h4 {
+    font-weight: bold;
+}
+
+.hover-galeria img {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    position: relative;
+    left: 35%;
+}
+
+.imagen-port:hover .hover-galeria {
+    transform: scale(1);
+}
+
+
+/***********************************************************************/
+
+
+/*****************************Footer*******************************/
+
+
+/***********************************************************************/
+
+.section-footer footer {
+    background-color: #2571AB;
+    color: #fff;
+    font-weight: bold;
+}
+
+.section-footer footer .footer-copyright a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* 
+.contenido img {
+    width: 75%;
+} */
+
+@media(min-width: 992px) {
+    /*navbar*/
+    .navbar {
+        background-color: transparent !important;
+    }
+    .background-scroll-down {
+        background-color: #2571AB !important;
+    }
+}
