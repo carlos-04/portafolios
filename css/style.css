@@ -48,7 +48,7 @@ nav .logo {
 
 .seccion-header {
     width: 100%;
-    padding: 200px 0;
+    padding: 100px 0;
     background: #0F2027;
     background: -webkit-linear-gradient(to right, hsla(197, 38%, 28%, 0.285), #203a4379, hsla(198, 43%, 11%, 0.36));
     background: linear-gradient(to right, hsla(197, 38%, 28%, 0.578), hsla(194, 35%, 19%, 0.387), hsla(198, 43%, 11%, 0.353)), url(../images/banner.jpg);
